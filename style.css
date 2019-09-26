@@ -1,0 +1,46 @@
+h1 {
+    color: red; 
+}
+
+body {
+	background-color: #000000
+  #e8eff2
+}
+
+progress {
+  margin: 4px;
+}
+
+progress:indeterminate {
+  opacity: 0.5;
+  background-color: lightgray;
+  box-shadow: 0 0 2px 1px red;
+}
+  display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+form.form-example {
+ 
+border-radius: 10px 100px / 120px;
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
